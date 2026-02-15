@@ -37,5 +37,5 @@ Combina análisis de datos y desarrollo web, entregando una herramienta práctic
 
 📈 Algunas Visualizaciones 
 
-<img src="assets/apptest.jpg" width="300"> <img src="assets/carprice.jpg" width="300"> <img src="assets/kilomprecio.jpg" width="300">
-<img src="assets/transmisiondistribucion.jpg" width="300">
+<img src="assets/apptest.jpg" width="400"> <img src="assets/carprice.jpg" width="400"> <img src="assets/kilomprecio.jpg" width="400">
+<img src="assets/transmisiondistribucion.jpg" width="400">
