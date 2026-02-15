@@ -36,5 +36,6 @@ Puede usarse para identificar vehículos subvalorados o tendencias de precios.
 Combina análisis de datos y desarrollo web, entregando una herramienta práctica para decisiones comerciales.
 
 📈 Algunas Visualizaciones 
+
 <img src="assets/apptest.jpg" width="300"> <img src="assets/carprice.jpg" width="300"> <img src="assets/kilomprecio.jpg" width="300">
 <img src="assets/transmisiondistribucion.jpg" width="300">
