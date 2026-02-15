@@ -1,12 +1,40 @@
-# Proyecto de Análisis de Datos de Vehículos
+🚗📊 Análisis de Vehículos + App Web Interactiva
 
-Este proyecto tiene como objetivo poner en práctica tareas habituales de ingeniería de software y análisis de datos. Se trabajó con un conjunto de datos de anuncios de vehículos usados, que describen características clave de cada vehículo y su publicación. En este proyecto se utiliza el archivo vehicles_us.csv como dataset principal y se desarrolló una aplicación web con Streamlit que permite visualizar algunos gráficos interactivos.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-EDA-orange?logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Visualización-blue?logo=plotly&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit&logoColor=white)
+![Estado](https://img.shields.io/badge/Estado-Completado-brightgreen)
 
-El dataset incluye variables como el precio (price), el año del modelo (model_year), el kilometraje (odometer), el número de cilindros (cylinders), si el vehículo es 4x4 (is_4wd) y los días que el anuncio estuvo activo (days_listed). También variables que describen el vehículo, como el modelo (model), la condición (condition), el tipo de combustible (fuel), la transmisión (transmission), el tipo de vehículo (type) y el color (paint_color). Así como la fecha de publicación del anuncio (date_posted).
+📌 Contexto
+Análisis de un dataset de anuncios de vehículos usados para identificar patrones de mercado y comprender qué factores influyen en los precios y características de los vehículos publicados.Se desarrolló una aplicación web interactiva con Streamlit que permite explorar visualmente estos datos.
 
-## Funcionalidades de la aplicación web
+📁 Dataset principal: vehicles_us.csv contiene información como: Variables cuantitativas: price, model_year, odometer, cylinders, is_4wd, days_listed
+                                                                 Variables categóricas: model, condition, fuel, transmission, type, paint_color
+                                                                 Fecha de publicación del anuncio: date_posted
+                                                                 
+🎯 Objetivo
+Analizar factores que influyen en el precio y las características de los vehículos.
+Desarrollar una herramienta interactiva web que permita explorar los datos de manera dinámica y visual.
 
-La aplicación web desarrollada con Streamlit permite al usuario explorar el dataset de forma visual e interactiva. Entre sus principales funcionalidades se incluyen:
- - Visualización de gráficos interactivos para analizar la distribución y relación entre algunas          variables del dataset.
- - Exploración del precio de los vehículos en función de algunas características como el año del modelo, el kilometraje y el tipo de vehículo.
+💻 Procesamiento de datos
+Configuración y gestión de un entorno virtual de Python para garantizar reproducibilidad.
+Limpieza y análisis exploratorio de datos (EDA).
+Identificación de patrones en precios, año de modelo, kilometraje y tipo de vehículo.
+Desarrollo de app web con Streamlit para exploración interactiva.
+Visualizaciones dinámicas con Plotly Express.
 
+🔎 Principales Hallazgos
+Precios: Mayor variabilidad en vehículos más antiguos o con alto kilometraje.
+Kilometraje y año del modelo: Relación clara con precio; vehículos recientes y con menos millas son más caros.
+Tipo de vehículo y transmisión: Algunos tipos (SUV, Truck) y transmisiones automáticas presentan precios más altos.
+4x4 y cilindrada: Vehículos 4x4 y con más cilindros tienden a estar en rangos de precio superiores.
+
+📌 Recomendaciones / Impacto
+La app permite a usuarios y analistas explorar datos dinámicamente para evaluar vehículos y patrones de mercado.
+Puede usarse para identificar vehículos subvalorados o tendencias de precios.
+Combina análisis de datos y desarrollo web, entregando una herramienta práctica para decisiones comerciales.
+
+📈 Algunas Visualizaciones 
+<img src="assets/apptest.jpg" width="300"> <img src="assets/carprice.jpg" width="300"> <img src="assets/kilomprecio.jpg" width="300">
+<img src="assets/transmisiondistribucion.jpg" width="300">
